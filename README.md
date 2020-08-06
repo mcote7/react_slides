@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React: Slideshow App
 
 ## Environment 
@@ -47,3 +48,7 @@ npm install
 ```bash
 npm test
 ```
+=======
+# ReactSlides
+React Slide Carousel Component
+>>>>>>> 704d9f2248c926cfe81f6ae81a3628c1bebc7971
