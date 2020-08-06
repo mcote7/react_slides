@@ -27,13 +27,13 @@ const Slides = ({slides}) => {
     //     console.log("index", idx);
     //     setCurrentSlide(slides[idx]);
     // };
-    const handleReset = () => {
-        setCurrentSlide(slides[0]);
-    };
+    // const handleReset = () => {
+    //     setCurrentSlide(slides[0]);
+    // };
     return (
         <div>
             <div id="navigation" className="text-center">
-                <button data-testid="button-restart" onClick={handleReset} className="small outlined">Restart</button>
+                {/* <button data-testid="button-restart" onClick={handleReset} className="small outlined">Restart</button> */}
                 {/* <button data-testid="button-prev" onClick={handleSlidePrev} className="small">Prev</button> */}
                 <button data-testid="button-prev" onClick={handleSlideShiftPrev} className="small">Prev</button>
                 {/* <button data-testid="button-next" onClick={handleSlideNext} className="small">Next</button> */}
